@@ -1,0 +1,63 @@
+{
+    "author": "CodingBrick <xiaoyangjia@163.com>",
+    "description": "程序员面试宝典",
+    "extension": null,
+    "generator": "site",
+    "isbn": "",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": "https://twitter.com/codingbrick",
+            "weibo": null
+        },
+        "sidebar": {
+            "博客主页": "https://www.codingbrick.com"
+        }
+    },
+    "output": null,
+    "styles": {
+        "website": "assets/style.css"
+    },
+    "pdf": {
+        "fontSize": 13,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "language":"zh-hans",
+    "plugins": ["multipart","lightbox","-fontsettings","-sharing","-lunr","-search","search-pro","favicon","hide-element","tbfed-pagefooter","baidu-tongji-with-multiple-channel","intopic-toc","chapter-fold"],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut":"assets/images/favicon.ico",
+            "bookmark":"assets/images/favicon.ico"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"<a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备18068218号</a> <a href='https://www.codingbrick.com/' target='_blank'>Codingbrick.com</a> 2021",
+            "modify_label": "修订时间",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "baidu-tongji-with-multiple-channel": {
+            "token": "d6500b1301540e952886094f94df51ac"
+        },
+        "intopic-toc": {
+            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5",
+            "maxDepth": 3,
+            "label": "文章索引"
+          },
+          "chapter-fold":{}
+    },
+    "title": "程序员面试宝典",
+    "variables": {}
+}
